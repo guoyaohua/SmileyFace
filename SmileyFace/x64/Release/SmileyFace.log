@@ -1,0 +1,49 @@
+﻿生成启动时间为 2016/5/18 16:33:58。
+     1>项目“F:\毕业设计\Projects\SmileyFace\SmileyFace\SmileyFace.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Release\SmileyFace.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Release\SmileyFace.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt SmileyFaceDlg.cpp
+         SmileyFaceDlg.cpp
+     1>f:\program files (x86)\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>SmileyFaceDlg.cpp(347): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(347): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(367): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(367): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(608): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(608): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(628): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(628): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(1112): warning C4101: “e”: 未引用的局部变量
+     1>SmileyFaceDlg.cpp(1208): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(1208): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(1229): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(1229): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(1259): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(1259): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(1280): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(1280): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\毕业设计\Projects\SmileyFace\x64\Release\SmileyFace.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d2411.lib opencv_contrib2411.lib opencv_core2411.lib opencv_features2d2411.lib opencv_flann2411.lib opencv_gpu2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib opencv_legacy2411.lib opencv_ml2411.lib opencv_nonfree2411.lib opencv_objdetect2411.lib opencv_ocl2411.lib opencv_photo2411.lib opencv_stitching2411.lib opencv_superres2411.lib opencv_ts2411.lib opencv_video2411.lib opencv_videostab2411.lib opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_ml2411d.lib opencv_nonfree2411d.lib opencv_objdetect2411d.lib opencv_ocl2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_videostab2411d.lib SkinMagic.lib opencv_calib3d2411.lib opencv_contrib2411.lib opencv_core2411.lib opencv_features2d2411.lib opencv_flann2411.lib opencv_gpu2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib opencv_legacy2411.lib opencv_ml2411.lib opencv_nonfree2411.lib opencv_objdetect2411.lib opencv_ocl2411.lib opencv_photo2411.lib opencv_stitching2411.lib opencv_superres2411.lib opencv_ts2411.lib opencv_video2411.lib opencv_videostab2411.lib opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_ml2411d.lib opencv_nonfree2411d.lib opencv_objdetect2411d.lib opencv_ocl2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_videostab2411d.lib /MANIFEST /ManifestFile:"x64\Release\SmileyFace.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\毕业设计\Projects\SmileyFace\x64\Release\SmileyFace.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\毕业设计\Projects\SmileyFace\x64\Release\SmileyFace.lib" /MACHINE:X64 x64\Release\SmileyFace.res
+         x64\Release\CvvImage.obj
+         x64\Release\detect_recog.obj
+         x64\Release\SmileyFace.obj
+         x64\Release\SmileyFaceDlg.obj
+         x64\Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         SmileyFace.vcxproj -> F:\毕业设计\Projects\SmileyFace\x64\Release\SmileyFace.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\毕业设计\Projects\SmileyFace\x64\Release\SmileyFace.exe;#1" /manifest x64\Release\SmileyFace.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\SmileyFace.unsuccessfulbuild”。
+         正在对“x64\Release\SmileyFace.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\毕业设计\Projects\SmileyFace\SmileyFace\SmileyFace.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.75

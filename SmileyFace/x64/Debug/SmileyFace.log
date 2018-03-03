@@ -1,0 +1,67 @@
+﻿生成启动时间为 2016/4/29 21:00:20。
+     1>项目“F:\毕业设计\Projects\SmileyFace\SmileyFace\SmileyFace.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“x64\Debug\SmileyFace.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Debug\SmileyFace.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\SmileyFace.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt CvvImage.cpp detect_recog.cpp SmileyFace.cpp SmileyFaceDlg.cpp
+         SmileyFaceDlg.cpp
+     1>f:\program files (x86)\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>SmileyFaceDlg.cpp(347): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(347): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(367): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(367): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(605): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(605): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(625): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(625): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(1107): warning C4101: “e”: 未引用的局部变量
+     1>SmileyFaceDlg.cpp(1201): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(1201): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(1222): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(1222): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(1252): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(1252): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(1273): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>SmileyFaceDlg.cpp(1273): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+         SmileyFace.cpp
+     1>f:\program files (x86)\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         detect_recog.cpp
+     1>f:\program files (x86)\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>detect_recog.cpp(574): warning C4244: “=”: 从“intptr_t”转换到“long”，可能丢失数据
+     1>detect_recog.cpp(572): warning C4101: “filepath”: 未引用的局部变量
+     1>detect_recog.cpp(601): warning C4244: “=”: 从“intptr_t”转换到“long”，可能丢失数据
+     1>detect_recog.cpp(600): warning C4101: “filepath”: 未引用的局部变量
+         CvvImage.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0804" /Ix64\Debug\ /nologo /fo"x64\Debug\SmileyFace.res" SmileyFace.rc 
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\毕业设计\Projects\SmileyFace\x64\Debug\SmileyFace.exe" /INCREMENTAL /NOLOGO opencv_calib3d2411.lib opencv_contrib2411.lib opencv_core2411.lib opencv_features2d2411.lib opencv_flann2411.lib opencv_gpu2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib opencv_legacy2411.lib opencv_ml2411.lib opencv_nonfree2411.lib opencv_objdetect2411.lib opencv_ocl2411.lib opencv_photo2411.lib opencv_stitching2411.lib opencv_superres2411.lib opencv_ts2411.lib opencv_video2411.lib opencv_videostab2411.lib opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_ml2411d.lib opencv_nonfree2411d.lib opencv_objdetect2411d.lib opencv_ocl2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_videostab2411d.lib /MANIFEST /ManifestFile:"x64\Debug\SmileyFace.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\毕业设计\Projects\SmileyFace\x64\Debug\SmileyFace.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\毕业设计\Projects\SmileyFace\x64\Debug\SmileyFace.lib" /MACHINE:X64 x64\Debug\SmileyFace.res
+         x64\Debug\SmileyFace.exe.embed.manifest.res
+         x64\Debug\CvvImage.obj
+         x64\Debug\detect_recog.obj
+         x64\Debug\SmileyFace.obj
+         x64\Debug\SmileyFaceDlg.obj
+         x64\Debug\stdafx.obj
+         SmileyFace.vcxproj -> F:\毕业设计\Projects\SmileyFace\x64\Debug\SmileyFace.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\SmileyFace.exe.embed.manifest" /manifest x64\Debug\SmileyFace.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         SmileyFace.vcxproj -> F:\毕业设计\Projects\SmileyFace\x64\Debug\SmileyFace.exe
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\SmileyFace.unsuccessfulbuild”。
+         正在对“x64\Debug\SmileyFace.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\毕业设计\Projects\SmileyFace\SmileyFace\SmileyFace.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:32.02
